@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Assignment_Sandeep</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section class="title">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Logo</a>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      </form>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#event">Events</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inbox</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notifications</a>
+          </li>
+          <li>
+            <img src="./images/meeting.jpg" class="avatar" alt="avatar">
+          </li>
+          <li>
+            <button class="button button3">Post Jobs</button>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+  </section>
+
+
+  <div class="">
+    <img class="intro_image" src="./images/meeting.jpg" alt="meeting">
+  </div>
+  <!-- This is form -->
+    <div id=event class="form_design">
+      <form class="" action="index.html" method="post">
+        <p>Create Event</p>
+        <label for="">Name of the event</label>
+        <input type="text" name="" value="" placeholder="Product Designer">
+        <label for="">Location</label>
+        <input type="text" name="" value="" placeholder="Product Designer">
+        <label for="">Date & Timings</label>
+        <div class="two-col">
+          <div class="col1">
+            <div class="input_box">
+              <!-- <input type="date" name="" value="" placeholder="Date" > -->
+              <input type="text" placeholder="Date" onfocus="(this.type='date')">
+            </div>
+          </div>
+
+          <div class="col2">
+            <div class="input_box">
+              <input type="text" placeholder="Time" onfocus="(this.type='time')">
+            </div>
+          </div>
+        </div>
+        <label for="">Description</label>
+        <input type="text" name="" value="" placeholder="The event is based on.....">
+      </form>
+
+      <button class="button button1">Delete</button>
+      <button class="button button2">Save</button>
+
+
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>

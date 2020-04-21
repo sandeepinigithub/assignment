@@ -1,0 +1,143 @@
+.title{
+  background-color: #30475e;
+  color: #ffffff;
+}
+.intro_image{
+  width: 100%;
+}
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px
+}
+.form_design{
+  margin: auto;
+  width: 60%;
+  border: 1px solid;
+  border-color: #dbdbdb;
+  padding: 10px;
+  margin-top: 25px;
+  position: relative;
+}
+.date_time{
+  display: inline-block;
+}
+.right {
+  position: absolute;
+  right: 10px;
+}
+
+/* kkkkkkkkkk */
+
+.form_design{
+  margin: auto;
+  width: 60%;
+  border: 1px solid;
+  border-color: #dbdbdb;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+input,textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+label,p{
+  font-weight: bold;
+  position: relative;
+}
+.date_time{
+  display: inline-block;
+}
+
+/* Making Date and time in two column*/
+.two-col {
+    overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .col1,
+.two-col .col2 {
+    width: 49%;
+}
+
+.two-col .col1 {
+    float: left;
+}
+
+.two-col .col2 {
+    float: right;
+}
+/* making label bold */
+.two-col label {
+    display: block;
+}
+
+/* Date & Time arranging with selector arrow*/
+.input_box{
+  width: 150px;
+  overflow: hidden;
+  /* border: 1px solid #000; */
+  position: relative;
+  padding: 10px 0;
+}
+.input_box:after{
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #f00;
+  position: absolute;
+  top: 40%;
+  right: 5px;
+  content: "";
+  z-index: 98;
+ }
+.input_box input[date],input[time]{
+  width: 220px;
+  border: 0;
+  position: relative;
+  z-index: 99;
+  background: none;
+}
+
+/* Making button beautiful😁 */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: nones;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  width: 100px;
+}
+
+.button1 {
+  background-color: white;
+  color: #fa744f;
+  border: 2px solid #fa744f;
+  border-radius: 10px;
+}
+.button2 {
+  background-color: #fa744f;
+  color: white;
+  border: 2px solid #fa744f;
+  border-radius: 10px;
+  position: absolute;
+  right: 15px;
+
+}
+.button3 {
+  background-color: #fa744f;
+  color: white;
+  border: 2px solid #fa744f;
+  border-radius: 10px;
+}
